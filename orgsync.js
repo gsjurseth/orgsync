@@ -88,7 +88,7 @@ async function grabDevelopers() {
       });
     })
     .catch( e => {
-      console.error(e);
+      console.error("our error: ", e);
     });
 }
 
