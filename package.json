@@ -1,0 +1,25 @@
+{
+  "name": "orgsync",
+  "version": "1.0.0",
+  "description": "For syncing apigee orgs. Backups and syncing back to live setups",
+  "main": "orgsync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsjurseth/orgsync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsjurseth/orgsync/issues"
+  },
+  "homepage": "https://github.com/gsjurseth/orgsync#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  }
+}
